@@ -7,7 +7,7 @@ A modern and feature-rich movie streaming platform built with Spring Boot, Mongo
 - 📺 Movie streaming with high-quality video playback
 - 🔍 Advanced search and filtering capabilities
 - 👤 User authentication and authorization 
-- 📱 Responsive design for all devices
+- 📱 Responsive design for all devices 
 - ⭐ User ratings and reviews  
 - 📋 Watchlist management
 - 🎯 Personalized recommendations
