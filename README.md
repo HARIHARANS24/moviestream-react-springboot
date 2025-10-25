@@ -13,7 +13,7 @@ A modern and feature-rich movie streaming platform built with Spring Boot, Mongo
 - 🎯 Personalized recommendations
 
 ## 🛠️ Tech Stack 
-
+ 
 ### Frontend
 - ReactJS
 - Material-UI
