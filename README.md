@@ -12,7 +12,7 @@ A modern and feature-rich movie streaming platform built with Spring Boot, Mongo
 - 📋 Watchlist management
 - 🎯 Personalized recommendations
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack 
 
 ### Frontend
 - ReactJS
