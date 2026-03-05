@@ -31,63 +31,80 @@ A modern and feature-rich movie streaming platform built with Spring Boot, Mongo
 ## 📁 Project Structure
 
 ```
-📦 MovieStream
-├── 📂 movies-streaming-frontend
-│   ├── 📂 public
-│   │   ├── 📄 index.html
-│   │   └── 📄 favicon.ico
-│   ├── 📂 src
-│   │   ├── 📂 api
-│   │   │   └── 📄 axiosConfig.js
-│   │   ├── 📂 components
-│   │   │   ├── 📂 header
-│   │   │   │   └── 📄 Header.js
-│   │   │   ├── 📂 hero
-│   │   │   │   ├── 📄 Hero.js
-│   │   │   │   └── 📄 Hero.css
-│   │   │   ├── 📂 home
-│   │   │   │   └── 📄 Home.js
-│   │   │   ├── 📂 log
-│   │   │   │   ├── 📄 Login.js
-│   │   │   │   └── 📄 Register.js
-│   │   │   ├── 📂 notFound
-│   │   │   │   └── 📄 NotFound.js
-│   │   │   ├── 📂 reviewForm
-│   │   │   │   └── 📄 ReviewForm.js
-│   │   │   ├── 📂 reviews
-│   │   │   │   └── 📄 Review.js
-│   │   │   ├── 📂 trailer
-│   │   │   │   ├── 📄 Trailer.js
-│   │   │   │   └── 📄 Trailer.css
-│   │   │   └── 📄 Layout.js
-│   │   ├── 📄 App.js
-│   │   ├── 📄 App.css
-│   │   ├── 📄 index.js
-│   │   ├── 📄 index.css
-│   │   └── 📄 logo.svg
-│   ├── 📄 package.json
-│   └── 📄 README.md
-│
-└── 📂 movies-streaming-backend
-    ├── 📂 src
-    │   ├── 📂 main
-    │   │   ├── 📂 java
-    │   │   │   └── 📂 com
-    │   │   │       └── 📂 example
-    │   │   │           ├── 📂 movies
-    │   │   │           │   ├── 📄 Movie.java
-    │   │   │           │   ├── 📄 Review.java
-    │   │   │           │   ├── 📄 MovieController.java
-    │   │   │           │   ├── 📄 ReviewController.java
-    │   │   │           │   ├── 📄 MovieService.java
-    │   │   │           │   ├── 📄 ReviewService.java
-    │   │   │           │   ├── 📄 MovieRepository.java
-    │   │   │           │   └── 📄 ReviewRepository.java
-    │   │   │           └── 📄 MoviesApplication.java
-    │   │   └── 📂 resources
-    │   └── 📂 test
-    ├── 📄 pom.xml
-    └── 📄 README.md
+Directory structure:
+└── hariharans24-moviestream-react-springboot/
+    ├── README.md
+    ├── LICENSE
+    ├── movies-streaming-backend/
+    │   ├── HELP.md
+    │   ├── mvnw
+    │   ├── mvnw.cmd
+    │   ├── pom.xml
+    │   ├── src/
+    │   │   ├── main/
+    │   │   │   ├── java/
+    │   │   │   │   └── com/
+    │   │   │   │       └── example/
+    │   │   │   │           ├── MoviesApplication.java
+    │   │   │   │           └── movies/
+    │   │   │   │               ├── Movie.java
+    │   │   │   │               ├── MovieController.java
+    │   │   │   │               ├── MovieRepository.java
+    │   │   │   │               ├── MovieService.java
+    │   │   │   │               ├── Review.java
+    │   │   │   │               ├── ReviewController.java
+    │   │   │   │               ├── ReviewRepository.java
+    │   │   │   │               └── ReviewService.java
+    │   │   │   └── resources/
+    │   │   │       └── application.properties
+    │   │   └── test/
+    │   │       └── java/
+    │   │           └── com/
+    │   │               └── example/
+    │   │                   └── movies/
+    │   │                       └── MoviesApplicationTests.java
+    │   └── target/
+    │       └── classes/
+    │           ├── application.properties
+    │           └── com/
+    │               └── example/
+    │                   └── movies/
+    └── movies-streaming-frontend/
+        ├── README.md
+        ├── package-lock.json
+        ├── package.json
+        ├── public/
+        │   ├── index.html
+        │   ├── manifest.json
+        │   └── robots.txt
+        └── src/
+            ├── App.css
+            ├── App.js
+            ├── index.css
+            ├── index.js
+            ├── api/
+            │   └── axiosConfig.js
+            └── components/
+                ├── Layout.js
+                ├── header/
+                │   └── Header.js
+                ├── hero/
+                │   ├── Hero.css
+                │   └── Hero.js
+                ├── home/
+                │   └── Home.js
+                ├── log/
+                │   ├── Login.js
+                │   └── Register.js
+                ├── notFound/
+                │   └── NotFound.js
+                ├── reviewForm/
+                │   └── ReviewForm.js
+                ├── reviews/
+                │   └── Review.js
+                └── trailer/
+                    ├── Trailer.css
+                    └── Trailer.js
 ```
 
 ## 🚀 Getting Started
